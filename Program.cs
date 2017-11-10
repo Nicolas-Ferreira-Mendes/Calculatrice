@@ -48,7 +48,8 @@ namespace Calculatrice
                         isOpIncorrect = true;
                         break;
                     case "+":
-                        dblRep = 0;
+                        dblRep = Outils.Additon(dblVal1, dblVal2);
+                        Console.Write(dblRep.ToString());
                         break;
 
                     case "-":
@@ -65,9 +66,10 @@ namespace Calculatrice
                     case "^":
                         dblRep = 0;
                         break;
+
                 }
             }
-            Console.Write(dblRep);
+         
             Console.ReadKey();
         }
     }

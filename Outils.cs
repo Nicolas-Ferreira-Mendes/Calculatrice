@@ -8,7 +8,7 @@ namespace Calculatrice
 {
     class Outils
     {
-        double Additon(double a, double b)
+     public  static double Additon(double a, double b)
         {
             return a + b;
         }
