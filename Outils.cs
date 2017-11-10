@@ -12,5 +12,17 @@ namespace Calculatrice
         {
             return a + b;
         }
+        public static double Soustraction(double a, double b)
+        {
+            return a - b;
+        }
+        public static double Multiplication(double a, double b)
+        {
+            return a * b;
+        }
+        public static double Division(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
