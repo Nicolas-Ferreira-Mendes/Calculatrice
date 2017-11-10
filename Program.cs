@@ -67,7 +67,7 @@ namespace Calculatrice
                         break;
                 }
             }
-            Console.Write(dblVal1.ToString() + dblVal2.ToString());
+            Console.Write(dblRep);
             Console.ReadKey();
         }
     }
